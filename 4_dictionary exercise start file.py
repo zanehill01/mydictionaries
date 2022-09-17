@@ -57,7 +57,7 @@ def deal_cards(deck, number):
 
     
     
-
+    # DATA VALIDATION
     # Make sure the number of cards to deal is not
     # greater than the number of cards in the deck (52).
 
