@@ -209,16 +209,9 @@ ProduceDictionary = {
 
 for k, v in ProduceDictionary.items():
 
-    name = [k][0]
-    cost = v['cost']
-    amt_sold = v['amt_sold']
-    total = v['total']
+    calc = round((v['cost'] * v['amt_sold']), 2)
 
-    calc = round((cost * amt_sold), 2)
-
-    if calc != total:
-        print()
-        print('Produce Name:', name)
+    if calc != v['total']:
+        print('\nProduce Name:', k)
         print('Calculated Total:', calc)
-        print('Stated Total:', total)
-        print()
+        print('Stated Total', v['total'])
