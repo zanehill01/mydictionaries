@@ -6,7 +6,7 @@ person["spouse"] = "Edna"
 person["children"] = ["Ralph", "Betty", "Joey"]
 person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
-#print(person)
+# print(person)
 
 # the name of the second child
 
@@ -20,7 +20,7 @@ print(person['pets']['cat'])
 # use a for-loop to list each child
 
 for i in person['children']:
-    print()
+    print(i)
 
 # print out the pets ijn this format,
 # 'Type of pet: dog name of pet: Fido'
